@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
 
-jobs:
+job:
   terraform:
     name: 'Terraform'
     runs-on: ubuntu-latest
